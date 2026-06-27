@@ -1,4 +1,4 @@
-# Sistem prediksi kelembapan harian menggunakan algoritma Normalized Least Mean Square (NLMS)
+# Sistem Prediksi Kelembapan Harian menggunakan algoritma NLMS
 
 Sistem prediksi kelembapan harian menggunakan algoritma **Normalized Least Mean Square (NLMS)** berbasis Python. Model menerapkan adaptive filtering untuk memprediksi kelembapan berdasarkan data historis melalui preprocessing, pembentukan lag feature, dan optimasi parameter.
 
