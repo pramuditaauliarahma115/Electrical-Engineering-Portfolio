@@ -30,13 +30,17 @@ Diagram berikut menunjukkan alur prediksi kelembapan menggunakan algoritma NLMS.
 
 ## Hasil Implementasi
 
-Model berhasil melakukan prediksi kelembapan menggunakan adaptive learning dengan hasil terbaik:
+| Parameter | Hasil |
+|-----------|-------|
+| Accuracy | **95.93%** |
+| MAPE | **4.07%** |
+| Epoch | **800** |
+| Learning Rate (μ) | **0.05** |
+| Lag | **50** |
 
-- **Accuracy : 95.93%**
-- **MAPE : 4.07%**
-- **Best Parameter :** Epoch = 800, μ = 0.05, Lag = 50
-
-![Prediction](images/Hasil_Prediksi.png)
+<p align="center">
+  <img src="images/Hasil_Prediksi.png" width="900">
+</p>
 
 ---
 
