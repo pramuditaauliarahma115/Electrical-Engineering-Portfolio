@@ -28,26 +28,12 @@ Sistem **monitoring suhu dan kelembapan ruang server** berbasis **Internet of Th
 
 ---
 
-## Dashboard Node-RED
+## Implementasi Sistem Monitoring
+
+Implementasi sistem meliputi **flow Node-RED**, **dashboard monitoring real-time**, dan **database SQLite** untuk penyimpanan data historis suhu serta kelembapan ruang server.
 
 <p align="center">
-<img src="images/Dashboard_Node_RED.jpg" width="800">
-</p>
-
----
-
-## Dashboard Monitoring
-
-<p align="center">
-<img src="images/Dashboard_Monitoring.png" width="800">
-</p>
-
----
-
-## Database Monitoring
-
-<p align="center">
-<img src="images/Database_SQLite.png" width="800">
+  <img src="images/Implementasi_Monitoring.png" alt="Implementasi Sistem Monitoring IoT" width="1000">
 </p>
 
 ---
