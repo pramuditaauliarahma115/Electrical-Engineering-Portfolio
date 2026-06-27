@@ -55,7 +55,7 @@ Diagram berikut menunjukkan arsitektur keseluruhan sistem Grid-Connected VSI Inv
 Prototype inverter yang telah direalisasikan dan digunakan pada proses implementasi serta pengujian sistem.
 
 <p align="center">
-  <img src="images/02_Prototype_Perangkat_Keras.png" width="850">
+  <img src="images/Prototype_Perangkat_Keras.png" width="850">
 </p>
 
 ---
