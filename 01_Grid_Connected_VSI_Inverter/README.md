@@ -62,7 +62,13 @@ Prototype inverter yang telah direalisasikan dan digunakan pada proses implement
 
 ## Hasil Simulasi
 
-*(Masukkan gambar gelombang PWM, arus, tegangan, dan THD)*
+### Respons Arus dan Tegangan
+
+Hasil simulasi menunjukkan respons arus inverter, arus jaringan, arus beban, dan tegangan jaringan yang stabil menggunakan PI Current Control.
+
+<p align="center">
+  <img src="images/Hasil_Simulasi_PI_Current_Control.png" width="850">
+</p>
 
 ---
 
