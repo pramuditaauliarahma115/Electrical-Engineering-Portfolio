@@ -1,2 +1,2 @@
 # Electrical-Engineering-Portfolio
-Electrical Engineering Projects including PLC, IoT, MATLAB, Power Electronics, and Industrial Automation.
+Portofolio proyek Teknik Elektro yang mencakup sistem tenaga listrik, otomasi industri, instrumentasi, PLC, Internet of Things (IoT), elektronika daya, dan sistem kendali.
