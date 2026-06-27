@@ -39,7 +39,7 @@ Diagram berikut menunjukkan alur prediksi kelembapan menggunakan algoritma NLMS.
 | Lag | **50** |
 
 <p align="center">
-  <img src="images/Hasil_Prediksi.png" width="900">
+  <img src="images/Hasil_NLMS.png" width="900">
 </p>
 
 ---
