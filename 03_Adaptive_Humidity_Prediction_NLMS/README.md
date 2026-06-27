@@ -28,8 +28,6 @@ Diagram berikut menunjukkan alur prediksi kelembapan menggunakan algoritma NLMS.
 
 ---
 
-## Hasil Implementasi
-
 <p align="center">
   <img src="image/Hasil_NLMS.png" width="900">
 </p>
