@@ -30,14 +30,6 @@ Diagram berikut menunjukkan alur prediksi kelembapan menggunakan algoritma NLMS.
 
 ## Hasil Implementasi
 
-| Parameter | Hasil |
-|-----------|-------|
-| Accuracy | **95.93%** |
-| MAPE | **4.07%** |
-| Epoch | **800** |
-| Learning Rate (μ) | **0.05** |
-| Lag | **50** |
-
 <p align="center">
   <img src="images/Hasil_NLMS.png" width="900">
 </p>
