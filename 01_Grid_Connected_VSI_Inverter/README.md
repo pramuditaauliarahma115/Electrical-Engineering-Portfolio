@@ -91,14 +91,26 @@ Pengujian dilakukan pada beberapa nilai referensi arus (**Iref**) untuk mengeval
 
 ---
 
+## Struktur Repository
 
-## Dokumentasi
+```text
+01_Grid_Connected_VSI_Inverter
+│
+├── images/
+├── MATLAB_kontrol_loop_tertutup.slx
+├── Rangkaian_PSIM.psimsch
+├── Program_VSI_Unipolar_PWM.ino
+├── Wiring_VSI_Full.pdsprj
+├── Wiring_TLP250_MOSFET_SENSOR_ARUS.pdsprj
+└── README.md
+```
 
-- Diagram blok sistem
-- Skematik inverter
-- Rangkaian driver
-- Hasil simulasi MATLAB/PSIM
-- Prototype perangkat keras
-- Hasil pengujian
+## File Utama
 
----
+| File | Keterangan |
+|------|------------|
+| MATLAB_kontrol_loop_tertutup.slx | Simulasi PI Current Control menggunakan MATLAB/Simulink. |
+| Rangkaian_PSIM.psimsch | Simulasi inverter H-Bridge pada PSIM. |
+| Program_VSI_Unipolar_PWM.ino | Implementasi algoritma SPWM dan PI Current Control pada Arduino Uno. |
+| Wiring_VSI_Full.pdsprj | Desain rangkaian hardware inverter. |
+| Wiring_TLP250_MOSFET_SENSOR_ARUS.pdsprj | Rangkaian gate driver dan sensor arus. |
