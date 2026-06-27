@@ -7,7 +7,7 @@ from numba import njit
 # ======================================================
 # 0. GLOBAL CONFIGURATION
 # ======================================================
-FILE_PATH = r"E:\UNSOED\SEMESTER 7\adaptif\humidity-only.csv"
+FILE_PATH = r"E:\Humidity_Data.csv"
 # --- CHIRP SETTINGS ---
 CHIRP_SR = 44100 # Sampling Rate
 CHIRP_DURATION = 1.0 # Seconds
