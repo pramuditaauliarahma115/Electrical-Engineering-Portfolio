@@ -92,21 +92,6 @@ Pengujian dilakukan pada beberapa nilai referensi arus (**Iref**) untuk mengeval
 
 ---
 
-## Struktur Repository
-
-```text
-01_Grid_Connected_VSI_Inverter
-│
-├── images/
-├── MATLAB_kontrol_loop_tertutup.slx
-├── Rangkaian_PSIM.psimsch
-├── Program_VSI_Unipolar_PWM.ino
-├── Wiring_VSI_Full.pdsprj
-├── Wiring_TLP250_MOSFET_SENSOR_ARUS.pdsprj
-└── README.md
-```
----
-
 ## File Utama
 
 | File | Keterangan |
