@@ -42,8 +42,13 @@ Proyek ini merupakan tugas akhir Program Sarjana Teknik Elektro yang berfokus pa
 
 ## Arsitektur Sistem
 
-*(Masukkan Block Diagram dari skripsi)*
+Diagram berikut menunjukkan arsitektur keseluruhan sistem Grid-Connected VSI Inverter dengan PI Current Control.
 
+<p align="center">
+  <img src="images/system_architecture.png" alt="System Architecture" width="900">
+</p>
+
+Sistem terdiri dari sumber DC 24 V, Arduino Uno sebagai pengendali PI, pembangkit SPWM, gate driver, inverter H-Bridge VSI, filter LC, transformator, serta sensor arus sebagai umpan balik (closed-loop current control).
 ---
 
 ## Implementasi Hardware
