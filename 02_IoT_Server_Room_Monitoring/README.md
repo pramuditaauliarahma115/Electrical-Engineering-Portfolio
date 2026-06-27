@@ -28,10 +28,10 @@ Sistem **monitoring suhu dan kelembapan ruang server** berbasis **Internet of Th
 
 ---
 
-## Prototype Hardware
+## Dashboard Node-RED
 
 <p align="center">
-<img src="images/Prototype_Perangkat_Keras.jpg" width="800">
+<img src="images/Dashboard_Node_RED.jpg" width="800">
 </p>
 
 ---
