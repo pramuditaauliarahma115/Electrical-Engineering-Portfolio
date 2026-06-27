@@ -1,16 +1,16 @@
 # IoT Server Room Monitoring
 
-Sistem **monitoring suhu dan kelembapan ruang server** berbasis **Internet of Things (IoT)** menggunakan **ESP8266**, **DHT22**, **MQTT**, **Node-RED**, dan **SQLite**. Sistem mengirim data setiap **15 detik**, menampilkan kondisi secara **real-time**, serta menyimpan data historis.
+Sistem monitoring suhu dan kelembapan ruang server berbasis **Internet of Things (IoT)** menggunakan **ESP8266**, **DHT22**, **MQTT**, **Node-RED**, dan **SQLite**. Sistem mengirim data sensor setiap **15 detik**, menampilkan kondisi lingkungan secara **real-time**, serta menyimpan data historis untuk analisis dan monitoring.
 
 ---
 
 ## Teknologi
 
-**Hardware**
+### Hardware
 - ESP8266
 - DHT22
 
-**Software**
+### Software
 - Arduino IDE
 - MQTT (Mosquitto)
 - Node-RED
@@ -21,28 +21,30 @@ Sistem **monitoring suhu dan kelembapan ruang server** berbasis **Internet of Th
 
 ## Arsitektur Sistem
 
-<p align="center">
-  <img src="images/Arsitektur_Monitoring_IoT.png" width="850">
-</p>
+Diagram berikut menunjukkan alur komunikasi data mulai dari sensor hingga dashboard monitoring dan database.
 
+<p align="center">
+  <img src="images/Arsitektur_Monitoring_IoT.png" width="1000">
+</p>
 
 ---
 
 ## Implementasi Sistem Monitoring
 
+Implementasi sistem meliputi **flow Node-RED**, **dashboard monitoring real-time**, dan **database SQLite** untuk penyimpanan data historis suhu serta kelembapan ruang server.
+
 <p align="center">
-  <img src="images/Implementasi_Monitoring.png" alt="Implementasi Sistem Monitoring IoT" width="1000">
+  <img src="images/Implementasi_Monitoring.png" width="1000">
 </p>
 
 ---
 
-## Fitur
+## Hasil Implementasi
 
-- Real-time Monitoring
-- MQTT Communication
-- Node-RED Dashboard
-- SQLite Data Logging
-- Docker Deployment
+- Monitoring suhu dan kelembapan secara **real-time** setiap **15 detik**.
+- Dashboard Node-RED menampilkan **gauge** dan **grafik historis**.
+- Data sensor tersimpan otomatis pada **database SQLite**.
+- Komunikasi data menggunakan protokol **MQTT** dengan arsitektur **Publisher–Subscriber**.
 
 ---
 
@@ -52,6 +54,7 @@ Sistem **monitoring suhu dan kelembapan ruang server** berbasis **Internet of Th
 - ESP8266
 - MQTT
 - Node-RED
-- SQLite
+- SQLite Database
 - Docker
 - Embedded System
+- Real-Time Monitoring
