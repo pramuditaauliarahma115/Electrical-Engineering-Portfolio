@@ -37,7 +37,7 @@ Diagram berikut menunjukkan alur prediksi kelembapan menggunakan algoritma NLMS.
 | Parameter Optimal | **Epoch = 800, μ = 0.05, Lag = 50** |
 
 <p align="center">
-  <img src="images/Hasil_Implementasi.png" width="900">
+  <img src="image/Hasil_Implementasi.png" width="900">
 </p>
 
 ---
