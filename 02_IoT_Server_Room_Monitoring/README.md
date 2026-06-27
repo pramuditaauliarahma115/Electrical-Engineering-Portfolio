@@ -19,28 +19,32 @@ Sistem **monitoring suhu dan kelembapan ruang server** berbasis **Internet of Th
 
 ---
 
-## Arsitektur Sistem
+## Implementasi Hardware
+
+Prototype sistem monitoring suhu dan kelembapan berbasis ESP8266 yang digunakan pada proses implementasi dan pengujian.
 
 <p align="center">
-<img src="images/Arsitektur_Monitoring_IoT.png" width="850">
-</p>
-
-**Keterangan:** Data suhu dan kelembapan dibaca oleh **sensor DHT22**, dikirim melalui **ESP8266** menggunakan **protokol MQTT**, diproses oleh **Node-RED**, kemudian ditampilkan pada **dashboard** dan disimpan ke **database SQLite** untuk analisis historis.
-
----
-
-## Prototype Hardware
-
-<p align="center">
-<img src="images/Prototype_Perangkat_Keras.jpg" width="800">
+  <img src="images/Prototype_Perangkat_Keras.png" width="850">
 </p>
 
 ---
 
 ## Dashboard Monitoring
 
+Dashboard Node-RED menampilkan data suhu dan kelembapan secara real-time serta histori pengukuran.
+
 <p align="center">
-<img src="images/Dashboard_Monitoring.png" width="800">
+  <img src="images/Dashboard_NodeRED.png" width="900">
+</p>
+
+---
+
+## Hasil Pengujian
+
+Sistem berhasil mengirim data sensor ke MQTT Broker, menampilkan data pada dashboard secara real-time, serta menyimpan data historis ke database SQLite.
+
+<p align="center">
+  <img src="images/Hasil_Pengujian.png" width="900">
 </p>
 
 ---
