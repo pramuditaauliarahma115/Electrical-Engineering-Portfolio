@@ -22,8 +22,10 @@ Sistem **monitoring suhu dan kelembapan ruang server** berbasis **Internet of Th
 ## Arsitektur Sistem
 
 <p align="center">
-<img src="images/Arsitektur_Sistem.png" width="800">
+<img src="images/Arsitektur_Sistem.png" width="850">
 </p>
+
+**Keterangan:** Data suhu dan kelembapan dibaca oleh **sensor DHT22**, dikirim melalui **ESP8266** menggunakan **protokol MQTT**, diproses oleh **Node-RED**, kemudian ditampilkan pada **dashboard** dan disimpan ke **database SQLite** untuk analisis historis.
 
 ---
 
