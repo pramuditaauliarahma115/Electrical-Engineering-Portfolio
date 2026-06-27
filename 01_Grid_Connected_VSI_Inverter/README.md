@@ -60,15 +60,26 @@ Prototype inverter yang telah direalisasikan dan digunakan pada proses implement
 
 ---
 
-## Hasil Simulasi
+## Hasil Implementasi
 
-### Respons Arus dan Tegangan
+Pengujian dilakukan pada beberapa nilai referensi arus (**Iref**) untuk mengevaluasi kontribusi daya inverter pada sistem Grid-Connected VSI.
 
-Hasil simulasi menunjukkan respons arus inverter, arus jaringan, arus beban, dan tegangan jaringan yang stabil menggunakan PI Current Control.
+| Iref (A) | Iinv (A) | Igrid (A) | Iload (A) | Vgrid (V) | Pinv (W) | Pgrid (W) | Pload (W) | PF | Kontribusi Inverter |
+|---------:|---------:|----------:|----------:|----------:|---------:|----------:|----------:|---:|--------------------:|
+| 0.1 | 0.13 | 2.06 | 2.19 | 220 | 14.57 | 227.37 | 241.94 | 0.99 | 6.02% |
+| 0.5 | 0.65 | 1.54 | 2.19 | 220 | 72.06 | 169.86 | 241.94 | 0.99 | 29.79% |
+| 1.0 | 1.41 | 0.78 | 2.19 | 220 | 155.52 | 86.42 | 241.94 | 0.99 | 64.28% |
 
 <p align="center">
-  <img src="images/Hasil_Simulasi_PI_Current_Control.png" width="850">
+  <img src="images/07_Hasil_Pengujian_Daya.png" width="750">
 </p>
+
+**Ringkasan Hasil**
+
+- Daya inverter (**Pinv**) meningkat seiring kenaikan nilai **Iref**.
+- Kontribusi inverter terhadap beban meningkat hingga **64,28%** pada **Iref = 1,0 A**.
+- Daya yang disuplai jaringan (**Pgrid**) menurun seiring meningkatnya kontribusi inverter.
+- Faktor daya (**PF**) tetap tinggi (**0,99**) pada seluruh kondisi pengujian.
 
 ---
 
