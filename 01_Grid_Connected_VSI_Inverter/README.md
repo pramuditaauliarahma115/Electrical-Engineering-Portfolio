@@ -81,9 +81,6 @@ Pengujian dilakukan pada beberapa nilai referensi arus (**Iref**) untuk mengeval
 | 0.5 | 0.65 | 1.54 | 2.19 | 220 | 72.06 | 169.86 | 241.94 | 0.99 | 29.79% |
 | 1.0 | 1.41 | 0.78 | 2.19 | 220 | 155.52 | 86.42 | 241.94 | 0.99 | 64.28% |
 
-<p align="center">
-  <img src="images/07_Hasil_Pengujian_Daya.png" width="750">
-</p>
 
 **Ringkasan Hasil**
 
