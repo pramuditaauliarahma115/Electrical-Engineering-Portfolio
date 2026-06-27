@@ -83,21 +83,6 @@ Pengujian dilakukan pada beberapa nilai referensi arus (**Iref**) untuk mengeval
 
 ---
 
-## Hasil Implementasi
-
-Pengujian dilakukan pada beberapa nilai referensi arus (**Iref**) untuk mengevaluasi pengaruh PI Current Controller terhadap kontribusi daya inverter pada sistem Grid-Connected VSI.
-
-<p align="center">
-  <img src="images/07_Hasil_Pengujian_Daya.png" width="750">
-</p>
-
-**Ringkasan Hasil**
-
-- Peningkatan nilai **Iref** meningkatkan daya aktif yang disuplai inverter (**P_inv**) dari **14,57 W** menjadi **155,52 W**.
-- Daya yang disuplai jaringan (**P_grid**) menurun seiring meningkatnya kontribusi inverter, menunjukkan proses pembagian daya (power sharing) berjalan dengan baik.
-- Kontribusi inverter terhadap beban meningkat dari **6,02%** menjadi **64,28%** pada **Iref = 1,0 A**.
-- Faktor daya (**Power Factor**) tetap tinggi (**0,99**) pada seluruh kondisi pengujian, menunjukkan kualitas operasi sistem yang baik.
----
 
 ## Dokumentasi
 
