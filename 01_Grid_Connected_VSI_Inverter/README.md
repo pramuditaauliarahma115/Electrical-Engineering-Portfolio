@@ -69,6 +69,7 @@ Hasil simulasi menunjukkan respons arus inverter, arus jaringan, arus beban, dan
 <p align="center">
   <img src="images/Hasil_Simulasi_PI_Current_Control.png" width="850">
 </p>
+
 ---
 
 ## Hasil Implementasi
@@ -104,6 +105,7 @@ Pengujian dilakukan pada beberapa nilai referensi arus (**Iref**) untuk mengeval
 ├── Wiring_TLP250_MOSFET_SENSOR_ARUS.pdsprj
 └── README.md
 ```
+---
 
 ## File Utama
 
@@ -114,3 +116,5 @@ Pengujian dilakukan pada beberapa nilai referensi arus (**Iref**) untuk mengeval
 | Program_VSI_Unipolar_PWM.ino | Implementasi algoritma SPWM dan PI Current Control pada Arduino Uno. |
 | Wiring_VSI_Full.pdsprj | Desain rangkaian hardware inverter. |
 | Wiring_TLP250_MOSFET_SENSOR_ARUS.pdsprj | Rangkaian gate driver dan sensor arus. |
+
+---
