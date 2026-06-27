@@ -58,3 +58,11 @@ Implementasi sistem meliputi **flow Node-RED**, **dashboard monitoring real-time
 - Docker
 - Embedded System
 - Real-Time Monitoring
+---
+## File Utama
+
+| File | Keterangan |
+|------|------------|
+| Program_ESP8266_Monitoring.ino | Firmware ESP8266 untuk membaca sensor DHT22, mengirim data ke MQTT Broker, dan menyediakan web monitoring. |
+| platformio.ini | Konfigurasi environment PlatformIO beserta dependensi library yang digunakan pada proyek. |
+---
