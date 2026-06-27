@@ -23,7 +23,7 @@ Sistem prediksi kelembapan harian menggunakan algoritma **Normalized Least Mean 
 Diagram berikut menunjukkan alur prediksi kelembapan menggunakan algoritma NLMS.
 
 <p align="center">
-  <img src="images/Arsitektur_NLMS.png" width="1000">
+  <img src="image/Arsitektur_NLMS.png" width="1000">
 </p>
 
 ---
