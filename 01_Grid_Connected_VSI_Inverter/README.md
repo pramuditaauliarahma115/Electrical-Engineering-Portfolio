@@ -48,7 +48,6 @@ Diagram berikut menunjukkan arsitektur keseluruhan sistem Grid-Connected VSI Inv
   <img src="images/Arsitektur_Sistem.png" width="900">
 </p>
 
-Sistem terdiri dari sumber DC 24 V, Arduino Uno sebagai pengendali PI, pembangkit SPWM, gate driver, inverter H-Bridge VSI, filter LC, transformator, serta sensor arus sebagai umpan balik (closed-loop current control).
 ---
 
 ## Implementasi Hardware
