@@ -1,77 +1,105 @@
 # IoT Server Room Monitoring
 
-Sistem monitoring suhu dan kelembapan ruang server berbasis IoT menggunakan ESP8266, sensor DHT22, MQTT, Node-RED, dan SQLite. Data dikirim setiap 15 detik untuk ditampilkan secara real-time dan disimpan sebagai data historis.
+Sistem monitoring **suhu** dan **kelembapan ruang server** berbasis **Internet of Things (IoT)** menggunakan **ESP8266**, **sensor DHT22**, **MQTT**, **Node-RED**, dan **SQLite**. Sistem mengirimkan data setiap **15 detik**, menampilkan kondisi secara **real-time**, serta menyimpan data historis untuk mendukung pemantauan lingkungan ruang server.
 
 ---
 
 ## Tujuan
 
-- Monitoring suhu dan kelembapan ruang server secara real-time.
-- Menyimpan data historis ke database SQLite.
-- Menampilkan dashboard monitoring menggunakan Node-RED.
+- Mengembangkan **sistem monitoring suhu dan kelembapan** secara **real-time**.
+- Mengirim data sensor menggunakan **protokol MQTT**.
+- Menampilkan data pada **dashboard Node-RED**.
+- Menyimpan data historis ke dalam **database SQLite**.
 
 ---
 
 ## Teknologi
 
 ### Hardware
-- ESP8266
-- DHT22
-- Jumper Cable
+
+- **ESP8266**
+- **Sensor DHT22**
 
 ### Software
-- Arduino IDE / VS Code
-- MQTT (Mosquitto)
-- Node-RED
-- SQLite
-- Docker
+
+- **Arduino IDE**
+- **MQTT (Mosquitto Broker)**
+- **Node-RED**
+- **SQLite**
+- **Docker**
 
 ---
 
 ## Arsitektur Sistem
 
 <p align="center">
-<img src="images/system_architecture.png" width="700">
+<img src="images/Arsitektur_Sistem.png" width="750">
 </p>
 
-*Keterangan: Alur komunikasi data dari sensor hingga dashboard monitoring.*
+**Keterangan:** Alur komunikasi data dari **ESP8266** menuju **MQTT Broker**, **Node-RED**, **SQLite**, dan **Dashboard Monitoring**.
 
 ---
 
-## Prototype Hardware
+## Implementasi Hardware
 
 <p align="center">
-<img src="images/hardware_prototype.jpg" width="700">
+<img src="images/Prototype_Perangkat_Keras.jpg" width="750">
 </p>
 
-*Keterangan: Implementasi perangkat monitoring pada ruang server.*
+**Keterangan:** Prototype perangkat monitoring berbasis **ESP8266** dan **sensor DHT22** yang digunakan pada proses implementasi sistem.
 
 ---
 
 ## Dashboard Monitoring
 
 <p align="center">
-<img src="images/dashboard_monitoring.png" width="700">
+<img src="images/Dashboard_Monitoring.png" width="750">
 </p>
 
-*Keterangan: Dashboard Node-RED menampilkan suhu dan kelembapan secara real-time.*
+**Keterangan:** Dashboard **Node-RED** menampilkan data **suhu**, **kelembapan**, dan **grafik monitoring** secara **real-time**.
 
 ---
 
 ## Database Monitoring
 
 <p align="center">
-<img src="images/database_result.png" width="700">
+<img src="images/Database_SQLite.png" width="750">
 </p>
 
-*Keterangan: Data suhu dan kelembapan tersimpan otomatis pada SQLite setiap 15 detik.*
+**Keterangan:** Data sensor disimpan secara otomatis ke dalam **database SQLite** setiap **15 detik**.
 
 ---
 
 ## Fitur
 
-- Real-time monitoring
-- MQTT communication
-- Node-RED dashboard
-- SQLite data logging
-- Docker deployment
+- **Real-time Temperature Monitoring**
+- **Real-time Humidity Monitoring**
+- **MQTT Communication**
+- **Node-RED Dashboard**
+- **SQLite Data Logging**
+- **Docker Deployment**
+
+---
+
+## Dokumentasi
+
+- **Arsitektur Sistem**
+- **Prototype Perangkat Keras**
+- **Dashboard Monitoring**
+- **Database SQLite**
+- **Source Code ESP8266**
+- **Flow Node-RED**
+- **Konfigurasi Docker**
+
+---
+
+## Kompetensi yang Ditunjukkan
+
+- **Internet of Things (IoT)**
+- **Embedded System**
+- **ESP8266 Programming**
+- **MQTT Protocol**
+- **Node-RED**
+- **Database Management (SQLite)**
+- **Docker**
+- **Real-Time Monitoring System**
