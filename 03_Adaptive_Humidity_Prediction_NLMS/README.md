@@ -43,3 +43,12 @@ Diagram berikut menunjukkan alur prediksi kelembapan menggunakan algoritma NLMS.
 - Data Preprocessing
 - Hyperparameter Tuning
 - Data Visualization
+---
+## File Utama
+
+| File | Keterangan |
+|------|------------|
+| Program_NLMS.py | Implementasi algoritma Normalized Least Mean Square (NLMS) untuk prediksi kelembapan harian. |
+| Humidity_Data.csv | Dataset kelembapan yang digunakan untuk proses pelatihan dan evaluasi model. |
+| requirements.txt | Daftar library Python yang dibutuhkan untuk menjalankan program. |
+---
