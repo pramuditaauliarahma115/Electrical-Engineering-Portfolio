@@ -51,7 +51,7 @@ Prototype sistem terdiri atas conveyor berbasis motor DC, LED RGB sebagai sumber
 ## Hasil Implementasi
 
 Sistem berhasil mengidentifikasi serta menyortir objek berdasarkan warna menggunakan algoritma Euclidean Distance dengan dukungan filtering dan normalisasi RGB.
-
+---
 ### Ringkasan Hasil
 
 - Mendeteksi objek berwarna merah, hijau, dan biru secara otomatis.
@@ -83,3 +83,4 @@ Sistem berhasil mengidentifikasi serta menyortir objek berdasarkan warna menggun
 - RGB Normalization
 - Euclidean Distance Classification
 - Finite State Machine (FSM)
+---
