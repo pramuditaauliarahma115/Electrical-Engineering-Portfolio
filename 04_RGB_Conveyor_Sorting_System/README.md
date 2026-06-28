@@ -46,7 +46,7 @@ Diagram berikut menunjukkan alur kerja sistem mulai dari deteksi warna objek hin
 Prototype sistem terdiri atas conveyor berbasis motor DC, LED RGB sebagai sumber pencahayaan, sensor LDR/Photodiode sebagai pembaca pantulan cahaya, dan dua motor servo sebagai aktuator penyortiran.
 
 *<p align="center">
-  <img src="images/Implementasi_RGB.jpeg width="850">
+  <img src="images/Implementasi_RGB.png" width="850">
 </p>
 
 ---
