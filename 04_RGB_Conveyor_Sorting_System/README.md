@@ -53,12 +53,12 @@ Prototype sistem terdiri atas conveyor berbasis motor DC, LED RGB sebagai sumber
 ## Hasil Implementasi
 
 Sistem berhasil mengidentifikasi serta menyortir objek berdasarkan warna menggunakan algoritma Euclidean Distance dengan dukungan filtering dan normalisasi RGB.
----
+
 ### Ringkasan Hasil
 
 - Mendeteksi objek berwarna merah, hijau, dan biru secara otomatis.
 - Median Filter dan Moving Average Filter meningkatkan kestabilan pembacaan sensor.
-- Mekanisme conveyor dan dua servo berhasil melakukan penyortiran sesuai hasil klasifikasi.
+- Mekanisme conveyor dan dua motor servo berhasil melakukan penyortiran sesuai hasil klasifikasi.
 - EEPROM menyimpan data kalibrasi sehingga tidak diperlukan kalibrasi ulang setiap sistem dinyalakan.
 - Watchdog Timer meningkatkan keandalan sistem saat terjadi gangguan program.
 
