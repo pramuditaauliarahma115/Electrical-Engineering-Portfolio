@@ -63,15 +63,6 @@ Sistem berhasil mengidentifikasi serta menyortir objek berdasarkan warna menggun
 
 ---
 
-## File Utama
-
-| File | Keterangan |
-|------|------------|
-| RGB_Conveyor_Sorting_System.ino | Program utama sistem penyortiran berbasis Arduino Uno. |
-| README.md | Dokumentasi proyek. |
-
----
-
 ## Kompetensi
 
 - Embedded System
@@ -84,4 +75,12 @@ Sistem berhasil mengidentifikasi serta menyortir objek berdasarkan warna menggun
 - RGB Normalization
 - Euclidean Distance Classification
 - Finite State Machine (FSM)
+---
+
+## File Utama
+
+| File | Keterangan |
+|------|------------|
+| RGB_Conveyor_Sorting_System.ino | Program utama sistem penyortiran berbasis Arduino Uno. |
+| README.md | Dokumentasi proyek. |
 ---
