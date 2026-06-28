@@ -38,6 +38,7 @@ Diagram berikut menunjukkan alur kerja sistem mulai dari deteksi warna objek hin
 <p align="center">
   <img src="images/Arsitektur_Sistem.png" width="900">
 </p>
+
 ---
 
 ## Implementasi Hardware
