@@ -33,10 +33,11 @@ Proyek ini mengembangkan sistem penyortiran objek otomatis berbasis embedded sys
 
 ## Arsitektur Sistem
 
-Diagram berikut menunjukkan alur sistem mulai dari deteksi objek hingga proses penyortiran otomatis berdasarkan hasil identifikasi warna.
+Diagram berikut menunjukkan alur kerja sistem mulai dari deteksi warna objek hingga proses penyortiran otomatis menggunakan conveyor dan motor servo.
 
-*(Tambahkan gambar Arsitektur_Sistem.png)*
-
+<p align="center">
+  <img src="images/Arsitektur_Sistem.png" width="900">
+</p>
 ---
 
 ## Implementasi Hardware
